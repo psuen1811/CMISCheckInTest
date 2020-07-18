@@ -15,11 +15,11 @@ import org.apache.chemistry.opencmis.commons.enums.BindingType;
 import org.apache.chemistry.opencmis.commons.exceptions.CmisVersioningException;
 
 public class CmisTestConnection {
-	static String docID = "idd_60091871-0000-CC18-AC99-5B686BCB1F77";
-	static String user = "p8admin";
-	static String password = "filenet";
-	static String url = "http://join1.fyre.ibm.com:80/openfncmis/atom11";
-	static String objectStore = "p8os1";
+	static String docID = "idd_B045985F-0000-C61E-B07C-BC257241539A";
+	static String user = "P8Admin";
+	static String password = "IBMFileNetP8";
+	static String url = "http://localhost:9080/cmis11/atom11";
+	static String objectStore = "Sales";
 
 	public static void main(String[] args) {
 		final Session sess = initSession();
